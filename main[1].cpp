@@ -5,7 +5,7 @@ using namespace std;
 
 int main() 
 {
-  vector<string> ANS = {"i luv u", "ok \ni still luv u", "well ok \nu don't know \ni still luv u"};
+  vector<string> ANS = {"i luv u", "ok \ni still luv u", "well ok \nu don't know \nbut i still luv u"};
   
   vector<string> QUS = {"how u feel:\n", "bad", "ok"};
   int x;
