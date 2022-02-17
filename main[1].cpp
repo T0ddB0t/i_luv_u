@@ -5,7 +5,7 @@ using namespace std;
 
 int main() 
 {
-  vector<string> ANS = {"i luv u", "ok \ni still luv u"};
+  vector<string> ANS = {"i luv u", "ok \ni still luv u", "well ok \nu don't know \ni still luv u"};
   
   vector<string> QUS = {"how u feel:\n", "bad", "ok"};
   int x;
@@ -20,7 +20,10 @@ int main()
     cout << ANS[0];
   }else if(x == 2){
     cout << ANS[1];   
+  }else{
+    cout << ANS[2];
   }
+    
   
   
 }
